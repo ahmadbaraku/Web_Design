@@ -1,0 +1,38 @@
+html, body {    
+    background-color: #FCFAFB;
+}
+
+.home-stat .stat-course {
+    border-radius: 10px;
+    background-color: #1abc9c;
+    padding: 20px;
+}
+
+.home-stat .stat-hofaz {
+    border-radius: 10px;
+    background-color: #e74c3c;
+    padding: 20px;
+}
+
+.home-stat .stat-user {
+    border-radius: 10px;
+    background-color: #3498db;
+    padding: 20px; 
+}
+
+.home-stat .stat-ijaza {
+    border-radius: 10px;
+    background-color: #f1c40f;
+    padding: 20px;
+}
+
+.home-stat span {
+    display: block;
+    font-size: 60px;
+}
+
+.home-stat .stat {
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+}
