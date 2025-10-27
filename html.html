@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 <head>
-    <title>IUM</title>
+    <meta charset="utf-8">
+    <title>جامعة مينيسوتا الإسلامية</title>
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+        h1 {
+            text-align: center;
+        }
+
+       .send {
+        margin-right: 50%;
+        padding: 5px;
+        width: 75px;
+        background-color: coral;
+        color: #fff;
+        border-radius: 3px;
+        border: none;
+       } 
+    </style>
 </head>
-<body>
-<h1>بسم الله الرحمن الرحيم</h1>
-   
+<body dir="rtl">
+<h1>أهلاً وسهلاً بكم في جامعة مينيسوتا الإسلامية</h1>
+<div>
+    <h3>كليات الجامعة</h3>
+    <ul>
+        <li>كلية الدراسات الإسلامية</li>
+        <li>كلية الشريعة والقانون</li>
+        <li>كلية الآداب وعلوم القرآن</li>
+        <li>كلية الاقتصاد وإدارة الأعمال</li>
+        <li>كلية العلوم التربوية</li>
+        <li>كلية الحاسبات وتقنية المعلومات</li>
+    </ul>
+</div>
+<hr>
+<div>
+    <form action="">
+        <h3>للتسجيل في الجامعة</h3>
+        <label for="name">الاسم</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="age">العمر</label>
+        <input type="text" name="age" id="age"><br><br>
+        <label for="email">البريد الالكتروني</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="phone">رقم الجوال</label>
+        <input type="text" name="phone" id="phone"><br><br>
+        <label for="grade">المرحلة الدراسية</label>
+        <select name="grade" id="">
+           <option value="bac">بكالوريوس</option> 
+           <option value="master">ماجستير</option> 
+           <option value="phd">دكتوراه</option> 
+        </select><br><br>
+        <label for="spec">التخصص</label>
+        <select name="spec" id="">
+           <option value="islam">الدراسات الإسلامية</option> 
+           <option value="religion">الشريعة والقانون</option> 
+           <option value="behavour">الآداب وعلوم القرآن</option> 
+           <option value="it">الحاسب الآلي وتقنية المعلومات</option> 
+        </select><br><br>
+        <input type="submit" class="send" value="إرسال">
+    </form>
+</div>
+  <hr> 
 </body>
 </html>
